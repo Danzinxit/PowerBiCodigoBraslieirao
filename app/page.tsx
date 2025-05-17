@@ -1,12 +1,16 @@
 'use client';
 
+ 
+
+///PAGINAS COMPLETAAASSSSS
+
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Card } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Card } from '@/components/tudosobreospaineis/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/tudosobreospaineis/tabs';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, BarChart, Bar, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { Trophy, Shield, Goal, Award, TrendingUp, Percent, Target, Activity } from 'lucide-react';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/tudosobreospaineis/table';
 import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 import { FaTrophy, FaFutbol, FaStar, FaChartBar, FaDice, FaPercentage } from 'react-icons/fa';
 
