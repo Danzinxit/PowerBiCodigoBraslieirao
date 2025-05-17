@@ -2,7 +2,7 @@
 
 //SKELETON
 
-import { cn } from '@/lib/utils';
+import { cn } from '@/lib/utilidades';
 
 function Skeleton({
   className,
